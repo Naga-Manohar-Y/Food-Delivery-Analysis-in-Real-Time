@@ -5,7 +5,6 @@ from datetime import datetime
 from faker import Faker
 import boto3
 import os
-import time
 
 # Initialize Faker and Boto3 Kinesis client
 fake = Faker()
