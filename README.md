@@ -51,14 +51,14 @@ The CI/CD pipeline automates the deployment process, including:
 - QuickSight dashboard updates.
 
 ## Getting Started
-AWS Account: You will need an AWS account with the necessary permissions.
-Infrastructure Setup: Deploy the required AWS resources using CloudFormation or Terraform.
-Data Ingestion: Configure Kinesis to ingest food delivery order data.
-EMR Configuration: Set up the PySpark Streaming job to process the data.
-Airflow DAGs: Create Airflow DAGs to orchestrate the pipeline.
-Redshift Schema: Define the star schema in Redshift.
-QuickSight Dashboard: Build the dashboard to visualize the data.
-CI/CD Setup: Configure AWS CodeBuild for automated deployments.
+AWS Account: You will need an AWS account with the necessary permissions.    
+Infrastructure Setup: Deploy the required AWS resources using CloudFormation or Terraform.   
+Data Ingestion: Configure Kinesis to ingest food delivery order data.   
+EMR Configuration: Set up the PySpark Streaming job to process the data.   
+Airflow DAGs: Create Airflow DAGs to orchestrate the pipeline.   
+Redshift Schema: Define the star schema in Redshift.   
+QuickSight Dashboard: Build the dashboard to visualize the data.   
+CI/CD Setup: Configure AWS CodeBuild for automated deployments.   
 
 ## Future Enhancements
 Implement anomaly detection for delivery delays.
