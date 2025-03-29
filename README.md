@@ -13,12 +13,12 @@ The architecture consists of the following components:
 
 
 ## Key Features
-Real-time Data Processing: Processes food delivery orders in real-time for immediate insights.
-Scalable Architecture: Leverages AWS services for scalability and reliability.
-Optimized Data Storage: Employs a star schema on Redshift for efficient data warehousing.
-Interactive Dashboards: Provides real-time visualizations and insights through QuickSight.
-Automated Deployment: Implements a CI/CD pipeline for streamlined deployments.
-Orchestration: Utilizes Apache Airflow (MWAA) for pipeline management.
+- Real-time Data Processing: Processes food delivery orders in real-time for immediate insights.
+- Scalable Architecture: Leverages AWS services for scalability and reliability.
+- Optimized Data Storage: Employs a star schema on Redshift for efficient data warehousing.
+- Interactive Dashboards: Provides real-time visualizations and insights through QuickSight.
+- Automated Deployment: Implements a CI/CD pipeline for streamlined deployments.
+- Orchestration: Utilizes Apache Airflow (MWAA) for pipeline management.
 
 ## Technologies Used
 * **AWS Kinesis:** Used for real-time ingestion of food delivery order data.
